@@ -50,7 +50,7 @@ std:: string cross (int size){
 
   for(int row = 0; row < size; row++){
     for(int col = 0; col < size; col++){
-      if((row == col) || (row + col == size-1)){ //col == (size+1) - row) with row/col=1, (row+col == size-1)
+      if((row == col) || (row + col == size-1)){ 
         cross_shape += "*";
       }
       else{
@@ -81,6 +81,8 @@ std:: string lower(int length){
   return lower_triangle_shape;
 }
 
+
+
 //Task E; upper triangle (in progess)
 
 std:: string upper(int length){
@@ -96,6 +98,8 @@ std:: string upper(int length){
 
   return upper_triangle_shape;
 }
+
+
 
 //Task F; upside-down trapezoid
 //Task G;checkerboard(3x3)
