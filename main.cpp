@@ -24,13 +24,20 @@ int main(){
   std:: cout << "6 side length lower triangle shape: \n" << lower(6) << std:: endl;
   std:: cout << "3 side length lower triangle shape: \n" << lower(3) << std:: endl;
 
+  
   //testing task E
   std:: cout << "5 side length upper triangle shape: \n" << upper(5) << std::endl;
   std:: cout << "10 side length upper triangle shape: \n" << upper(10) << std::endl;
+
   
   //testing task F
-  //testing task G
+  std:: cout << "12,5 trapezoid shape: \n" << trapezoid(12,5) << std:: endl;
+  std:: cout << "12,7 trapezoid shape: \n" << trapezoid(12,7) << std:: endl;
 
+  
+  //testing task G
+  std:: cout << "16,11 checkerboard3x3 shape: \n" << checkerboard3x3(16,11) << std:: endl;
+  std:: cout << "27,27 checkerboard3x3 shape: \n" << checkerboard3x3(27,27) << std:: endl;
 
   return 0;
 }

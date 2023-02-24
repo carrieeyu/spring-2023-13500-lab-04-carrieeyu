@@ -17,5 +17,7 @@ std:: string lower(int length);
 std:: string upper(int length);
 
 //Task F
+std:: string trapezoid(int width, int height);
 
 //Task G
+std:: string checkerboard3x3(int width, int height);
