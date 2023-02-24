@@ -83,19 +83,23 @@ std:: string lower(int length){
 
 
 
-//Task E; upper triangle (in progess)
+//Task E; upper triangle 
 
 std:: string upper(int length){
 
   std:: string upper_triangle_shape = "";
 
-  for(int row = length; row >= 0; row--){
-    for(int col = row; col >= 0; col--){
-      upper_triangle_shape += "*";
+  for(int row = 0; row < length; row++){
+    for(int col = 0; col < length; col++){
+      if (row <= col){
+        upper_triangle_shape += "*";
+      }
+      else{
+        upper_triangle_shape += " ";
+      }
     }
     upper_triangle_shape += "\n";
   }
-
   return upper_triangle_shape;
 }
 
